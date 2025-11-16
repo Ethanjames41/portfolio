@@ -21,7 +21,7 @@
   
   <!-- Photo de profil - embed as base64 instead -->
   <image 
-    href="images/profile.jpg" 
+    href="https://ethanjames41.github.io/portfolio/images/profile.jpg" 
     x="80" 
     y="195" 
     width="240" 
