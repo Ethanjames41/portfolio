@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ethan James Walker | Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Ethan James Walker - Technology student specializing in web development, cloud computing, and IT systems. View my projects and connect with me.">
+        <meta name="keywords" content="Ethan Walker, Web Developer, Technology Student, Cloud Computing, IT Portfolio">
+        <meta name="author" content="Ethan James Walker">
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Ethan James Walker | Technology Portfolio">
+        <meta property="og:description" content="Technology student building real-world projects in web development, cloud computing, and IT systems.">
+        <meta property="og:image" content="images/profile-card.svg">
+        <meta property="og:image:alt" content="Ethan James Walker - Technology Student Portfolio">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ethanjameswalker.com">
+        
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ethan James Walker | Technology Portfolio">
+        <meta name="twitter:description" content="Technology student specializing in web development and cloud computing">
+        <meta name="twitter:image" content="images/profile-card.svg">
+        
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header Navigation -->
+        <header class="main-header">
+            <h1 class="logo">Ethan J. W</h1>
+            <nav class="nav-bar" aria-label="Main navigation">
+                <a href="#home" aria-label="Go to home section">Home</a>
+                <a href="#about" aria-label="Go to about section">About</a>
+                <a href="#projects" aria-label="Go to projects section">Projects</a>
+                <a href="#skills" aria-label="Go to skills section">Skills</a>
+                <a href="#contact" aria-label="Go to contact section">Contact</a>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="back-image-div" id="home">
+                <div class="profile-info">
+                    <img class="img" src="images/profile.jpg" alt="Ethan James Walker - Technology Student">
+                    <div class="name-container">
+                        <h1 class="name">Ethan James Walker</h1>
+                        <p class="tagline">Technology Student | Web Developer | Cloud Enthusiast</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="section-divider"></div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi! I'm Ethan James Walker, a passionate technology student at BYU-Idaho, dedicated to building innovative solutions through code and cloud technologies.</p>
+                        <p>I specialize in web development, cloud computing, and IT systems management. My goal is to create impactful projects that solve real-world problems while continuously expanding my technical expertise.</p>
+                        <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, and learning about the latest trends in software development.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-code"></i>
+                            <h3>5+</h3>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>GPA 3.8</h3>
+                            <p>Academic Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <div class="section-header">
+                    <h2>My Projects</h2>
+                    <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <div class="section-divider"></div>
+                <div id="project-container"></div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <div class="section-header">
+                    <h2>Skills & Technologies</h2>
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="section-divider"></div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>HTML5, CSS3, JavaScript, Responsive Design, Modern UI/UX</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-aws"></i>
+                            <i class="fa-brands fa-microsoft"></i>
+                        </div>
+                        <h3>Cloud Computing</h3>
+                        <p>AWS, Azure, Cloud Infrastructure, Deployment & Scaling</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3>Networking & IT</h3>
+                        <p>Network Topology, System Administration, Troubleshooting</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database"></i>
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <h3>Data Management</h3>
+                        <p>Excel Advanced Functions, Database Design, Data Analysis</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-git-alt"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3>Version Control</h3>
+                        <p>Git, GitHub, Collaboration, Code Review, CI/CD Basics</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-python"></i>
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h3>Programming</h3>
+                        <p>Python, Shell Scripting, Problem Solving, Algorithms</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 72%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="education-section">
+                <div class="section-header">
+                    <h2>Education</h2>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="section-divider"></div>
+                <div class="education-content">
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>Brigham Young University - Idaho</h3>
+                        <p class="degree">Bachelor of Science in Technology</p>
+                        <p class="date">Expected Graduation: 2026</p>
+                        <p class="description">Focusing on web development, cloud computing, and IT systems management. Active member of technology clubs and coding communities.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="section-divider"></div>
+                <p class="contact-intro">I'm always open to discussing new projects, opportunities, or collaborations. Feel free to reach out!</p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:ewalker5421@outlook.com">ewalker5421@outlook.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/ethan-james-walker-9005892a9" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Ethanjames41" target="_blank" rel="noopener noreferrer">View my repos</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Ethan James Walker. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                    <span>|</span>
+                    <a href="mailto:ewalker5421@outlook.com">Contact</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="projects.js" defer></script>
+        <script defer>
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Mobile menu toggle
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const navBar = document.querySelector('.nav-bar');
+            
+            if (mobileMenuToggle) {
+                mobileMenuToggle.addEventListener('click', () => {
+                    navBar.classList.toggle('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-times');
+                });
+            }
+
+            // Scroll indicator animation
+            const scrollIndicator = document.querySelector('.scroll-indicator');
+            if (scrollIndicator) {
+                scrollIndicator.addEventListener('click', () => {
+                    document.querySelector('#about').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            }
+
+            // Header scroll effect
+            window.addEventListener('scroll', () => {
+                const header = document.querySelector('.main-header');
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        </script>
+    </body>
+</html>
