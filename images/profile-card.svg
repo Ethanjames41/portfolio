@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2847;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1829;stop-opacity:1" />
+    </linearGradient>
+    
+    <clipPath id="circleClip">
+      <circle cx="200" cy="315" r="120"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Arrière-plan -->
+  <rect width="1200" height="630" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Cercle extérieur orange -->
+  <circle cx="200" cy="315" r="135" fill="none" stroke="#ff6b35" stroke-width="12"/>
+  
+  <!-- Cercle intérieur gris clair -->
+  <circle cx="200" cy="315" r="123" fill="#d4d4d8"/>
+  
+  <!-- Photo de profil - embed as base64 instead -->
+  <image 
+    href="images/profile.jpg" 
+    x="80" 
+    y="195" 
+    width="240" 
+    height="240" 
+    clip-path="url(#circleClip)" 
+    preserveAspectRatio="xMidYMid slice"
+  />
+  
+  <!-- Nom -->
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="white">
+    Ethan James Walker
+  </text>
+  
+  <!-- Sous-titre -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="32" fill="#ff6b35">
+    Technology Student | Web Developer
+  </text>
+  
+  <!-- Ligne orange sous le texte -->
+  <line x1="400" y1="380" x2="1100" y2="380" stroke="#ff6b35" stroke-width="6"/>
+</svg>
